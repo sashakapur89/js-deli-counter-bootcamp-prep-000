@@ -24,6 +24,6 @@ function currentLine(katzDeliLine){
     for(let i = 0; i<katzDeliLine.length; i++){
       numberedLine[numberedLine.length]= " " + parseInt(i+1) + ". " + katzDeliLine[i]
     }
-    return `The line is currently: ${numberedLine}`
+    return `The line is currently:${numberedLine}`
 }
 }
